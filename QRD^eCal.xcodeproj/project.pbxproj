@@ -7,64 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8AAC9D11D0791B50084195E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAC9D01D0791B50084195E /* AppDelegate.swift */; };
-		C8AAC9D31D0791B50084195E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAC9D21D0791B50084195E /* ViewController.swift */; };
-		C8AAC9D61D0791B50084195E /* QRD_eCal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8AAC9D41D0791B50084195E /* QRD_eCal.xcdatamodeld */; };
-		C8AAC9D81D0791B50084195E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AAC9D71D0791B50084195E /* Assets.xcassets */; };
-		C8AAC9DB1D0791B60084195E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AAC9D91D0791B60084195E /* Main.storyboard */; };
-		C8AAC9E61D0791B60084195E /* QRD_eCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAC9E51D0791B60084195E /* QRD_eCalTests.swift */; };
-		C8AAC9F11D0791B60084195E /* QRD_eCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AAC9F01D0791B60084195E /* QRD_eCalUITests.swift */; };
+		C8649D391D07B563005A8DF1 /* QRDPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8649D381D07B563005A8DF1 /* QRDPanel.swift */; };
+		C8649D3B1D07CA34005A8DF1 /* QRDStandardPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8649D3A1D07CA34005A8DF1 /* QRDStandardPanel.swift */; };
+		C8B168481D07B3FA002008EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B168471D07B3FA002008EB /* AppDelegate.swift */; };
+		C8B1684A1D07B3FA002008EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B168491D07B3FA002008EB /* ViewController.swift */; };
+		C8B1684D1D07B3FA002008EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B1684B1D07B3FA002008EB /* Main.storyboard */; };
+		C8B168501D07B3FA002008EB /* QRD_eCal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8B1684E1D07B3FA002008EB /* QRD_eCal.xcdatamodeld */; };
+		C8B168521D07B3FA002008EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B168511D07B3FA002008EB /* Assets.xcassets */; };
+		C8B168551D07B3FA002008EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B168531D07B3FA002008EB /* LaunchScreen.storyboard */; };
+		C8B168601D07B3FA002008EB /* QRD_eCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B1685F1D07B3FA002008EB /* QRD_eCalTests.swift */; };
+		C8B1686B1D07B3FA002008EB /* QRD_eCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B1686A1D07B3FA002008EB /* QRD_eCalUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C8AAC9E21D0791B60084195E /* PBXContainerItemProxy */ = {
+		C8B1685C1D07B3FA002008EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8AAC9C51D0791B50084195E /* Project object */;
+			containerPortal = C8B1683C1D07B3FA002008EB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8AAC9CC1D0791B50084195E;
+			remoteGlobalIDString = C8B168431D07B3FA002008EB;
 			remoteInfo = "QRD^eCal";
 		};
-		C8AAC9ED1D0791B60084195E /* PBXContainerItemProxy */ = {
+		C8B168671D07B3FA002008EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8AAC9C51D0791B50084195E /* Project object */;
+			containerPortal = C8B1683C1D07B3FA002008EB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8AAC9CC1D0791B50084195E;
+			remoteGlobalIDString = C8B168431D07B3FA002008EB;
 			remoteInfo = "QRD^eCal";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C8AAC9CD1D0791B50084195E /* QRD^eCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QRD^eCal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8AAC9D01D0791B50084195E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8AAC9D21D0791B50084195E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C8AAC9D51D0791B50084195E /* QRD_eCal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QRD_eCal.xcdatamodel; sourceTree = "<group>"; };
-		C8AAC9D71D0791B50084195E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C8AAC9DA1D0791B60084195E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C8AAC9DC1D0791B60084195E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8AAC9E11D0791B60084195E /* QRD^eCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QRD^eCalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8AAC9E51D0791B60084195E /* QRD_eCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRD_eCalTests.swift; sourceTree = "<group>"; };
-		C8AAC9E71D0791B60084195E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8AAC9EC1D0791B60084195E /* QRD^eCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QRD^eCalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8AAC9F01D0791B60084195E /* QRD_eCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRD_eCalUITests.swift; sourceTree = "<group>"; };
-		C8AAC9F21D0791B60084195E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8649D381D07B563005A8DF1 /* QRDPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRDPanel.swift; sourceTree = "<group>"; };
+		C8649D3A1D07CA34005A8DF1 /* QRDStandardPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRDStandardPanel.swift; sourceTree = "<group>"; };
+		C8B168441D07B3FA002008EB /* QRD^eCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QRD^eCal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B168471D07B3FA002008EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8B168491D07B3FA002008EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8B1684C1D07B3FA002008EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8B1684F1D07B3FA002008EB /* QRD_eCal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QRD_eCal.xcdatamodel; sourceTree = "<group>"; };
+		C8B168511D07B3FA002008EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8B168541D07B3FA002008EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8B168561D07B3FA002008EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B1685B1D07B3FA002008EB /* QRD^eCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QRD^eCalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B1685F1D07B3FA002008EB /* QRD_eCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRD_eCalTests.swift; sourceTree = "<group>"; };
+		C8B168611D07B3FA002008EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B168661D07B3FA002008EB /* QRD^eCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QRD^eCalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B1686A1D07B3FA002008EB /* QRD_eCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRD_eCalUITests.swift; sourceTree = "<group>"; };
+		C8B1686C1D07B3FA002008EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C8AAC9CA1D0791B50084195E /* Frameworks */ = {
+		C8B168411D07B3FA002008EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8AAC9DE1D0791B60084195E /* Frameworks */ = {
+		C8B168581D07B3FA002008EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8AAC9E91D0791B60084195E /* Frameworks */ = {
+		C8B168631D07B3FA002008EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +80,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C8AAC9C41D0791B50084195E = {
+		C8B1683B1D07B3FA002008EB = {
 			isa = PBXGroup;
 			children = (
-				C8AAC9CF1D0791B50084195E /* QRD^eCal */,
-				C8AAC9E41D0791B60084195E /* QRD^eCalTests */,
-				C8AAC9EF1D0791B60084195E /* QRD^eCalUITests */,
-				C8AAC9CE1D0791B50084195E /* Products */,
+				C8B168461D07B3FA002008EB /* QRD^eCal */,
+				C8B1685E1D07B3FA002008EB /* QRD^eCalTests */,
+				C8B168691D07B3FA002008EB /* QRD^eCalUITests */,
+				C8B168451D07B3FA002008EB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C8AAC9CE1D0791B50084195E /* Products */ = {
+		C8B168451D07B3FA002008EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8AAC9CD1D0791B50084195E /* QRD^eCal.app */,
-				C8AAC9E11D0791B60084195E /* QRD^eCalTests.xctest */,
-				C8AAC9EC1D0791B60084195E /* QRD^eCalUITests.xctest */,
+				C8B168441D07B3FA002008EB /* QRD^eCal.app */,
+				C8B1685B1D07B3FA002008EB /* QRD^eCalTests.xctest */,
+				C8B168661D07B3FA002008EB /* QRD^eCalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C8AAC9CF1D0791B50084195E /* QRD^eCal */ = {
+		C8B168461D07B3FA002008EB /* QRD^eCal */ = {
 			isa = PBXGroup;
 			children = (
-				C8AAC9D01D0791B50084195E /* AppDelegate.swift */,
-				C8AAC9D21D0791B50084195E /* ViewController.swift */,
-				C8AAC9D71D0791B50084195E /* Assets.xcassets */,
-				C8AAC9D91D0791B60084195E /* Main.storyboard */,
-				C8AAC9DC1D0791B60084195E /* Info.plist */,
-				C8AAC9D41D0791B50084195E /* QRD_eCal.xcdatamodeld */,
+				C8B168471D07B3FA002008EB /* AppDelegate.swift */,
+				C8B168491D07B3FA002008EB /* ViewController.swift */,
+				C8B1684B1D07B3FA002008EB /* Main.storyboard */,
+				C8B168511D07B3FA002008EB /* Assets.xcassets */,
+				C8B168531D07B3FA002008EB /* LaunchScreen.storyboard */,
+				C8B168561D07B3FA002008EB /* Info.plist */,
+				C8B1684E1D07B3FA002008EB /* QRD_eCal.xcdatamodeld */,
+				C8649D381D07B563005A8DF1 /* QRDPanel.swift */,
+				C8649D3A1D07CA34005A8DF1 /* QRDStandardPanel.swift */,
 			);
 			path = "QRD^eCal";
 			sourceTree = "<group>";
 		};
-		C8AAC9E41D0791B60084195E /* QRD^eCalTests */ = {
+		C8B1685E1D07B3FA002008EB /* QRD^eCalTests */ = {
 			isa = PBXGroup;
 			children = (
-				C8AAC9E51D0791B60084195E /* QRD_eCalTests.swift */,
-				C8AAC9E71D0791B60084195E /* Info.plist */,
+				C8B1685F1D07B3FA002008EB /* QRD_eCalTests.swift */,
+				C8B168611D07B3FA002008EB /* Info.plist */,
 			);
 			path = "QRD^eCalTests";
 			sourceTree = "<group>";
 		};
-		C8AAC9EF1D0791B60084195E /* QRD^eCalUITests */ = {
+		C8B168691D07B3FA002008EB /* QRD^eCalUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C8AAC9F01D0791B60084195E /* QRD_eCalUITests.swift */,
-				C8AAC9F21D0791B60084195E /* Info.plist */,
+				C8B1686A1D07B3FA002008EB /* QRD_eCalUITests.swift */,
+				C8B1686C1D07B3FA002008EB /* Info.plist */,
 			);
 			path = "QRD^eCalUITests";
 			sourceTree = "<group>";
@@ -128,13 +137,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8AAC9CC1D0791B50084195E /* QRD^eCal */ = {
+		C8B168431D07B3FA002008EB /* QRD^eCal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8AAC9F51D0791B60084195E /* Build configuration list for PBXNativeTarget "QRD^eCal" */;
+			buildConfigurationList = C8B1686F1D07B3FA002008EB /* Build configuration list for PBXNativeTarget "QRD^eCal" */;
 			buildPhases = (
-				C8AAC9C91D0791B50084195E /* Sources */,
-				C8AAC9CA1D0791B50084195E /* Frameworks */,
-				C8AAC9CB1D0791B50084195E /* Resources */,
+				C8B168401D07B3FA002008EB /* Sources */,
+				C8B168411D07B3FA002008EB /* Frameworks */,
+				C8B168421D07B3FA002008EB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,69 +151,69 @@
 			);
 			name = "QRD^eCal";
 			productName = "QRD^eCal";
-			productReference = C8AAC9CD1D0791B50084195E /* QRD^eCal.app */;
+			productReference = C8B168441D07B3FA002008EB /* QRD^eCal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C8AAC9E01D0791B60084195E /* QRD^eCalTests */ = {
+		C8B1685A1D07B3FA002008EB /* QRD^eCalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8AAC9F81D0791B60084195E /* Build configuration list for PBXNativeTarget "QRD^eCalTests" */;
+			buildConfigurationList = C8B168721D07B3FA002008EB /* Build configuration list for PBXNativeTarget "QRD^eCalTests" */;
 			buildPhases = (
-				C8AAC9DD1D0791B60084195E /* Sources */,
-				C8AAC9DE1D0791B60084195E /* Frameworks */,
-				C8AAC9DF1D0791B60084195E /* Resources */,
+				C8B168571D07B3FA002008EB /* Sources */,
+				C8B168581D07B3FA002008EB /* Frameworks */,
+				C8B168591D07B3FA002008EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8AAC9E31D0791B60084195E /* PBXTargetDependency */,
+				C8B1685D1D07B3FA002008EB /* PBXTargetDependency */,
 			);
 			name = "QRD^eCalTests";
 			productName = "QRD^eCalTests";
-			productReference = C8AAC9E11D0791B60084195E /* QRD^eCalTests.xctest */;
+			productReference = C8B1685B1D07B3FA002008EB /* QRD^eCalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C8AAC9EB1D0791B60084195E /* QRD^eCalUITests */ = {
+		C8B168651D07B3FA002008EB /* QRD^eCalUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8AAC9FB1D0791B60084195E /* Build configuration list for PBXNativeTarget "QRD^eCalUITests" */;
+			buildConfigurationList = C8B168751D07B3FA002008EB /* Build configuration list for PBXNativeTarget "QRD^eCalUITests" */;
 			buildPhases = (
-				C8AAC9E81D0791B60084195E /* Sources */,
-				C8AAC9E91D0791B60084195E /* Frameworks */,
-				C8AAC9EA1D0791B60084195E /* Resources */,
+				C8B168621D07B3FA002008EB /* Sources */,
+				C8B168631D07B3FA002008EB /* Frameworks */,
+				C8B168641D07B3FA002008EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8AAC9EE1D0791B60084195E /* PBXTargetDependency */,
+				C8B168681D07B3FA002008EB /* PBXTargetDependency */,
 			);
 			name = "QRD^eCalUITests";
 			productName = "QRD^eCalUITests";
-			productReference = C8AAC9EC1D0791B60084195E /* QRD^eCalUITests.xctest */;
+			productReference = C8B168661D07B3FA002008EB /* QRD^eCalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C8AAC9C51D0791B50084195E /* Project object */ = {
+		C8B1683C1D07B3FA002008EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Sean Manley";
 				TargetAttributes = {
-					C8AAC9CC1D0791B50084195E = {
+					C8B168431D07B3FA002008EB = {
 						CreatedOnToolsVersion = 7.3;
 					};
-					C8AAC9E01D0791B60084195E = {
+					C8B1685A1D07B3FA002008EB = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = C8AAC9CC1D0791B50084195E;
+						TestTargetID = C8B168431D07B3FA002008EB;
 					};
-					C8AAC9EB1D0791B60084195E = {
+					C8B168651D07B3FA002008EB = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = C8AAC9CC1D0791B50084195E;
+						TestTargetID = C8B168431D07B3FA002008EB;
 					};
 				};
 			};
-			buildConfigurationList = C8AAC9C81D0791B50084195E /* Build configuration list for PBXProject "QRD^eCal" */;
+			buildConfigurationList = C8B1683F1D07B3FA002008EB /* Build configuration list for PBXProject "QRD^eCal" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,36 +221,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C8AAC9C41D0791B50084195E;
-			productRefGroup = C8AAC9CE1D0791B50084195E /* Products */;
+			mainGroup = C8B1683B1D07B3FA002008EB;
+			productRefGroup = C8B168451D07B3FA002008EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8AAC9CC1D0791B50084195E /* QRD^eCal */,
-				C8AAC9E01D0791B60084195E /* QRD^eCalTests */,
-				C8AAC9EB1D0791B60084195E /* QRD^eCalUITests */,
+				C8B168431D07B3FA002008EB /* QRD^eCal */,
+				C8B1685A1D07B3FA002008EB /* QRD^eCalTests */,
+				C8B168651D07B3FA002008EB /* QRD^eCalUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C8AAC9CB1D0791B50084195E /* Resources */ = {
+		C8B168421D07B3FA002008EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AAC9D81D0791B50084195E /* Assets.xcassets in Resources */,
-				C8AAC9DB1D0791B60084195E /* Main.storyboard in Resources */,
+				C8B168551D07B3FA002008EB /* LaunchScreen.storyboard in Resources */,
+				C8B168521D07B3FA002008EB /* Assets.xcassets in Resources */,
+				C8B1684D1D07B3FA002008EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8AAC9DF1D0791B60084195E /* Resources */ = {
+		C8B168591D07B3FA002008EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8AAC9EA1D0791B60084195E /* Resources */ = {
+		C8B168641D07B3FA002008EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,60 +261,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C8AAC9C91D0791B50084195E /* Sources */ = {
+		C8B168401D07B3FA002008EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AAC9D61D0791B50084195E /* QRD_eCal.xcdatamodeld in Sources */,
-				C8AAC9D31D0791B50084195E /* ViewController.swift in Sources */,
-				C8AAC9D11D0791B50084195E /* AppDelegate.swift in Sources */,
+				C8B168501D07B3FA002008EB /* QRD_eCal.xcdatamodeld in Sources */,
+				C8649D391D07B563005A8DF1 /* QRDPanel.swift in Sources */,
+				C8B1684A1D07B3FA002008EB /* ViewController.swift in Sources */,
+				C8649D3B1D07CA34005A8DF1 /* QRDStandardPanel.swift in Sources */,
+				C8B168481D07B3FA002008EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8AAC9DD1D0791B60084195E /* Sources */ = {
+		C8B168571D07B3FA002008EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AAC9E61D0791B60084195E /* QRD_eCalTests.swift in Sources */,
+				C8B168601D07B3FA002008EB /* QRD_eCalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8AAC9E81D0791B60084195E /* Sources */ = {
+		C8B168621D07B3FA002008EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AAC9F11D0791B60084195E /* QRD_eCalUITests.swift in Sources */,
+				C8B1686B1D07B3FA002008EB /* QRD_eCalUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C8AAC9E31D0791B60084195E /* PBXTargetDependency */ = {
+		C8B1685D1D07B3FA002008EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8AAC9CC1D0791B50084195E /* QRD^eCal */;
-			targetProxy = C8AAC9E21D0791B60084195E /* PBXContainerItemProxy */;
+			target = C8B168431D07B3FA002008EB /* QRD^eCal */;
+			targetProxy = C8B1685C1D07B3FA002008EB /* PBXContainerItemProxy */;
 		};
-		C8AAC9EE1D0791B60084195E /* PBXTargetDependency */ = {
+		C8B168681D07B3FA002008EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C8AAC9CC1D0791B50084195E /* QRD^eCal */;
-			targetProxy = C8AAC9ED1D0791B60084195E /* PBXContainerItemProxy */;
+			target = C8B168431D07B3FA002008EB /* QRD^eCal */;
+			targetProxy = C8B168671D07B3FA002008EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C8AAC9D91D0791B60084195E /* Main.storyboard */ = {
+		C8B1684B1D07B3FA002008EB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C8AAC9DA1D0791B60084195E /* Base */,
+				C8B1684C1D07B3FA002008EB /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8B168531D07B3FA002008EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8B168541D07B3FA002008EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C8AAC9F31D0791B60084195E /* Debug */ = {
+		C8B1686D1D07B3FA002008EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,7 +342,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -341,15 +361,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C8AAC9F41D0791B60084195E /* Release */ = {
+		C8B1686E1D07B3FA002008EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,7 +388,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -380,80 +401,78 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C8AAC9F61D0791B60084195E /* Debug */ = {
+		C8B168701D07B3FA002008EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "QRD^eCal/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SManley.QRD-eCal";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SManley.QRD-eCal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C8AAC9F71D0791B60084195E /* Release */ = {
+		C8B168711D07B3FA002008EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "QRD^eCal/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "SManley.QRD-eCal";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SManley.QRD-eCal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		C8AAC9F91D0791B60084195E /* Debug */ = {
+		C8B168731D07B3FA002008EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "QRD^eCalTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SManley.QRD-eCalTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRD^eCal.app/Contents/MacOS/QRD^eCal";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRD^eCal.app/QRD^eCal";
 			};
 			name = Debug;
 		};
-		C8AAC9FA1D0791B60084195E /* Release */ = {
+		C8B168741D07B3FA002008EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "QRD^eCalTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SManley.QRD-eCalTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRD^eCal.app/Contents/MacOS/QRD^eCal";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRD^eCal.app/QRD^eCal";
 			};
 			name = Release;
 		};
-		C8AAC9FC1D0791B60084195E /* Debug */ = {
+		C8B168761D07B3FA002008EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "QRD^eCalUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SManley.QRD-eCalUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "QRD^eCal";
 			};
 			name = Debug;
 		};
-		C8AAC9FD1D0791B60084195E /* Release */ = {
+		C8B168771D07B3FA002008EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "QRD^eCalUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SManley.QRD-eCalUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "QRD^eCal";
@@ -463,53 +482,56 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8AAC9C81D0791B50084195E /* Build configuration list for PBXProject "QRD^eCal" */ = {
+		C8B1683F1D07B3FA002008EB /* Build configuration list for PBXProject "QRD^eCal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8AAC9F31D0791B60084195E /* Debug */,
-				C8AAC9F41D0791B60084195E /* Release */,
+				C8B1686D1D07B3FA002008EB /* Debug */,
+				C8B1686E1D07B3FA002008EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8AAC9F51D0791B60084195E /* Build configuration list for PBXNativeTarget "QRD^eCal" */ = {
+		C8B1686F1D07B3FA002008EB /* Build configuration list for PBXNativeTarget "QRD^eCal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8AAC9F61D0791B60084195E /* Debug */,
-				C8AAC9F71D0791B60084195E /* Release */,
+				C8B168701D07B3FA002008EB /* Debug */,
+				C8B168711D07B3FA002008EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C8AAC9F81D0791B60084195E /* Build configuration list for PBXNativeTarget "QRD^eCalTests" */ = {
+		C8B168721D07B3FA002008EB /* Build configuration list for PBXNativeTarget "QRD^eCalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8AAC9F91D0791B60084195E /* Debug */,
-				C8AAC9FA1D0791B60084195E /* Release */,
+				C8B168731D07B3FA002008EB /* Debug */,
+				C8B168741D07B3FA002008EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		C8AAC9FB1D0791B60084195E /* Build configuration list for PBXNativeTarget "QRD^eCalUITests" */ = {
+		C8B168751D07B3FA002008EB /* Build configuration list for PBXNativeTarget "QRD^eCalUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8AAC9FC1D0791B60084195E /* Debug */,
-				C8AAC9FD1D0791B60084195E /* Release */,
+				C8B168761D07B3FA002008EB /* Debug */,
+				C8B168771D07B3FA002008EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C8AAC9D41D0791B50084195E /* QRD_eCal.xcdatamodeld */ = {
+		C8B1684E1D07B3FA002008EB /* QRD_eCal.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C8AAC9D51D0791B50084195E /* QRD_eCal.xcdatamodel */,
+				C8B1684F1D07B3FA002008EB /* QRD_eCal.xcdatamodel */,
 			);
-			currentVersion = C8AAC9D51D0791B50084195E /* QRD_eCal.xcdatamodel */;
+			currentVersion = C8B1684F1D07B3FA002008EB /* QRD_eCal.xcdatamodel */;
 			path = QRD_eCal.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = C8AAC9C51D0791B50084195E /* Project object */;
+	rootObject = C8B1683C1D07B3FA002008EB /* Project object */;
 }

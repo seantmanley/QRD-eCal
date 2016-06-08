@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C8AAC9CC1D0791B50084195E"
+               BlueprintIdentifier = "C8B168431D07B3FA002008EB"
                BuildableName = "QRD^eCal.app"
                BlueprintName = "QRD^eCal"
                ReferencedContainer = "container:QRD^eCal.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C8AAC9E01D0791B60084195E"
+               BlueprintIdentifier = "C8B1685A1D07B3FA002008EB"
                BuildableName = "QRD^eCalTests.xctest"
                BlueprintName = "QRD^eCalTests"
                ReferencedContainer = "container:QRD^eCal.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C8AAC9EB1D0791B60084195E"
+               BlueprintIdentifier = "C8B168651D07B3FA002008EB"
                BuildableName = "QRD^eCalUITests.xctest"
                BlueprintName = "QRD^eCalUITests"
                ReferencedContainer = "container:QRD^eCal.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C8AAC9CC1D0791B50084195E"
+            BlueprintIdentifier = "C8B168431D07B3FA002008EB"
             BuildableName = "QRD^eCal.app"
             BlueprintName = "QRD^eCal"
             ReferencedContainer = "container:QRD^eCal.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C8AAC9CC1D0791B50084195E"
+            BlueprintIdentifier = "C8B168431D07B3FA002008EB"
             BuildableName = "QRD^eCal.app"
             BlueprintName = "QRD^eCal"
             ReferencedContainer = "container:QRD^eCal.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C8AAC9CC1D0791B50084195E"
+            BlueprintIdentifier = "C8B168431D07B3FA002008EB"
             BuildableName = "QRD^eCal.app"
             BlueprintName = "QRD^eCal"
             ReferencedContainer = "container:QRD^eCal.xcodeproj">
